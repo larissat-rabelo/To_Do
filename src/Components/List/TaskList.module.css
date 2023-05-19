@@ -1,0 +1,30 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCC;
+    padding: 1em;
+}
+
+.details {
+    text-align: left;
+}
+
+.details h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions svg {
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    transition: 0.5s;
+}
